@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="linqlogin">
+  <DataContextMoniker Name="/linqloginDataContext" />
+  <nestedChildShapes>
+    <classShape Id="4aaa62a8-d8f0-4415-b95c-d2f3de273100" absoluteBounds="4.875, 2.25, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/linqloginDataContext/user" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a4ee0b2e-9ad6-4fcb-a082-ee21ea911336" absoluteBounds="4.89, 2.71, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="cd34a905-28e0-4351-8815-2fcb5cb08f57" absoluteBounds="1.25, 2.25, 2, 1.3862939453125">
+      <DataClassMoniker Name="/linqloginDataContext/loginform" />
+      <nestedChildShapes>
+        <elementListCompartment Id="11b66cc2-be27-46ca-a06a-695f36e2a2ac" absoluteBounds="1.2650000000000001, 2.71, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(3.25 : 2.94314697265625); (4.875 : 2.94314697265625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/linqloginDataContext/loginform/loginform_user" />
+      <nodes>
+        <classShapeMoniker Id="cd34a905-28e0-4351-8815-2fcb5cb08f57" />
+        <classShapeMoniker Id="4aaa62a8-d8f0-4415-b95c-d2f3de273100" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
